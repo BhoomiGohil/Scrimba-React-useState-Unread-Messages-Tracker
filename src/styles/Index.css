@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.message-container {
+  text-align: center; /* Centering text */
+  margin-top: 50px; /* Adding some space from the top */
+  font-family: Arial, sans-serif; /* Setting a font */
+}
+
+.no-messages {
+  color: #4caf50; /* Green color for the message */
+  font-size: 24px; /* Larger font size */
+}
+
+.unread-messages {
+  color: #f44336; /* Red color for unread messages */
+  font-size: 24px; /* Larger font size */
+}
